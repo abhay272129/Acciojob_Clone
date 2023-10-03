@@ -17,9 +17,9 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white" id="nav-1">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="Frame 66.svg" alt="" width="180" class="d-inline-block align-text-top">
+                <img src="Frame 66.svg" alt="" width="180" class="d-inline-block align-text-top nav-img-1">
                 <img src="Line 8.svg" alt="" width="3" class="d-inline-block align-text-top">
-                <img src="NSDC_Logo_in_clear_background 1.svg" alt="" width="85" class="d-inline-block align-text-top">
+                <img src="NSDC_Logo_in_clear_background 1.svg" alt="" width="85" class="d-inline-block align-text-top nav-img-2">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -76,7 +76,7 @@
                 <p class="fs-1"><i>Launch your career with our<br><span class="text-primary fs-1 fw-bolder">Full Stack Developer</span>&nbsp;<span class="fs-1 fw-bolder">Courses</span></i></p>
                 <p class="text-secondary">Curriculum designed and taught by Alumini from IIT's & <br> Leading Tech Companies.</p>
                 <div class="d-flex">
-                    <div class="arrow-back mt-5 shadow py-2">
+                    <div class="arrow-back mt-5 shadow py-2" id="hero-img">
                         <img src="Frame 998.svg">
                         <img src="Frame 999.svg">
                         <img src="Frame 1001.svg">
@@ -121,7 +121,7 @@
                 <h4><img src="Sapling Icon.svg"><i>Beginner</i></h4>
                 <p><i><span style="background-color:#E0F3FF; border-radius: 5px;" class="text-primary p-1">100% Job Gaurantee</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color:#E0F3FF; border-radius: 5px;" class="text-primary p-1">Lifetime Access</span></i></p>
                 <p class="text-secondary">For you to start their coding journey from start</p>
-                <div>
+                <div id="Beginner">
                     <div class="d-flex">
                         <p><img src="Frame (13).svg">&nbsp;&nbsp;Placement Status</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <p>in 4 months</p>
@@ -147,7 +147,7 @@
                         <p>03-Oct-2023</p>
                     </div>  
                 </div>
-                <div>
+                <div id="beg-btn">
                     <button class="btn-1 text-primary"><img src="Frame (14).svg">Broucher</button>
                     <button class="btn-2 text-white">Learn More</button>
                 </div>
@@ -156,7 +156,7 @@
                 <h4><img src="Frame (9).svg"><i>Intermidiate</i></h4>
                 <p><i><span style="background-color:#FFEED8; border-radius: 5px;" class="text-danger p-1">Pay After Placement</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color:#FFEED8; border-radius: 5px;" class="text-danger p-1">Lifetime Access</span></i></p>
                 <p class="text-secondary">For learners with good reasoning & logical reasoning</p>
-                <div class="">
+                <div id="Intermidiate">
                     <div class="d-flex">
                         <p><img src="Frame (13).svg">&nbsp;&nbsp;Placement Status</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <p>in 4 months</p>
@@ -182,7 +182,7 @@
                         <p>03-Oct-2023</p>
                     </div>  
                 </div>
-                <div>
+                <div id="int-btn">
                     <button class="btn-1 text-primary"><img src="Frame (14).svg">Broucher</button>
                     <button class="btn-2 text-white">Learn More</button>
                 </div>
@@ -194,30 +194,33 @@
     <section class="partners my-5 mx-5">
         <div class="d-flex flex-column align-items-center">
             <p class="text-primary"><i>OVER 300+ HIRING PARTNERS</i></p>
-            <h3><i>Top Startups & MNC's Hire</i></h3>
+            <h3 class="text-center"><i>Top Startups & MNC's Hire</i></h3>
             <h3 class="text-primary"><i>Software Engineer</i></h3>
             <p class="text-secondary">From Acciojob upto 41 Lakhs</p>
         </div>
-        <div class="d-flex justify-content-between flex-wrap">
-            <img class="mx-3 my-2" src="Frame 629.svg">
-            <img class="mx-3 my-2" src="Frame 630.svg">
-            <img class="mx-3 my-2" src="Frame 636.svg">
-            <img class="mx-3 my-2" src="Frame 631.svg">
-            <img class="mx-3 my-2" src="Frame 632.svg">
-            <img class="mx-3 my-2" src="Frame 634.svg">
-            <img class="mx-3 my-2" src="Frame 639.svg">
-            <img class="mx-3 my-2" src="Frame 640.svg">
-            <img class="mx-3 my-2" src="Frame 641.svg">
-            <img class="mx-3 my-2" src="Frame 642.svg">
-            <img class="mx-3 my-2" src="Frame 643.svg">
-            <img class="mx-3 my-2" src="Frame 647.svg">
-            <img class="mx-3 my-2" src="Frame 649.svg">
-            <img class="mx-3 my-2" src="Frame 651.svg">
-            <img class="mx-3 my-2" src="Frame 652.svg">
-            <img class="mx-3 my-2" src="Frame 656.svg">
-            <img class="mx-3 my-2" src="Frame 638.svg">
-            <img class="mx-3 my-2" src="Frame 655.svg">
+        <div id="scroll-container">
+            <div class="d-flex justify-content-between flex-wrap" id="list">
+                <img class="mx-3 my-2" src="Frame 629.svg">
+                <img class="mx-3 my-2" src="Frame 630.svg">
+                <img class="mx-3 my-2" src="Frame 636.svg">
+                <img class="mx-3 my-2" src="Frame 631.svg">
+                <img class="mx-3 my-2" src="Frame 632.svg">
+                <img class="mx-3 my-2" src="Frame 634.svg">
+                <img class="mx-3 my-2" src="Frame 639.svg">
+                <img class="mx-3 my-2" src="Frame 640.svg">
+                <img class="mx-3 my-2" src="Frame 641.svg">
+                <img class="mx-3 my-2" src="Frame 642.svg">
+                <img class="mx-3 my-2" src="Frame 643.svg">
+                <img class="mx-3 my-2" src="Frame 647.svg">
+                <img class="mx-3 my-2" src="Frame 649.svg">
+                <img class="mx-3 my-2" src="Frame 651.svg">
+                <img class="mx-3 my-2" src="Frame 652.svg">
+                <img class="mx-3 my-2" src="Frame 656.svg">
+                <img class="mx-3 my-2" src="Frame 638.svg">
+                <img class="mx-3 my-2" src="Frame 655.svg">
+            </div>
         </div>
+        
         <div class="d-flex justify-content-center mt-5">
             <button class="btn-3 text-white"><i>Placement Report ></i></button>
         </div>    
