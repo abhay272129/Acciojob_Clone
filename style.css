@@ -149,27 +149,11 @@
     #int-btn{
         display: flex;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 19px;
         flex-direction: column;
         justify-content: center;
     }
-    /* #scroll-container{
-        width: auto;
-        margin: 10px;
-    }
-    #list{
-        width: auto;
-        margin: 10px;
-        white-space:nowrap;
-        overflow-x: scroll;
-    }
-    #list::-webkit-scrollbar {
-        display: none;
-    }
-    #list>img{
-        display: inline-block;
-        margin: 10px;
-    } */
+   
     #scroll-container{
         display: none;
     }
